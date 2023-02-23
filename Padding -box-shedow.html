@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Padding-box-Shedow </title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        .d {
+            height: 200px;
+            width: 200px;
+            background-color: coral;
+            padding-top: 85px;
+            padding-left: 50px;
+            margin: 100px 0 0 100px;
+            /* box-sizing: border-box; */
+            /* Box Bottom & Right Shadow */
+            box-shadow: 10px 10px 30px blue;
+        }
+        
+        .h {
+            height: 200px;
+            width: 200px;
+            background-color: coral;
+            padding-top: 85px;
+            padding-left: 50px;
+            margin: 100px 0 0 100px;
+            /* Box top & Left Shadow */
+            box-shadow: -10px -10px 30px blue;
+        }
+        
+        .i {
+            height: 200px;
+            width: 200px;
+            background-color: coral;
+            padding-top: 85px;
+            padding-left: 50px;
+            margin: 100px 0 0 100px;
+            /* Box top - Left & Bottom - Right Shadow */
+            box-shadow: -10px -10px 80px blue, 10px 10px 30px blue;
+        }
+        
+        .a {
+            height: 200px;
+            width: 200px;
+            background-color: coral;
+            padding-top: 85px;
+            padding-left: 50px;
+            margin: 100px 0 0 100px;
+            /* Box 4 Side Shadow */
+            box-shadow: 0 0 70px blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="d"> Hemant Gadagi </div>
+    <div class="h"> Devedra Kosti </div>
+    <div class="i"> Ganesh Gumfavar </div>
+    <div class="a"> Parth Ganpa </div>
+</body>
+
+</html>
